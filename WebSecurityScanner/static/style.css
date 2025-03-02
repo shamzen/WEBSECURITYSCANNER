@@ -1,0 +1,92 @@
+/* 🔥 Global Styles */
+body {
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🔥 Navbar */
+nav {
+    background-color: #1e293b;
+    padding: 15px;
+}
+nav h1 {
+    margin: 0;
+    color: #38bdf8;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* 🔥 Sections */
+.section {
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* 🔥 Input Box & Button */
+.input-container {
+    margin-top: 20px;
+}
+input {
+    width: 80%;
+    max-width: 400px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    background-color: #1e293b;
+    color: white;
+}
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #38bdf8;
+    transform: scale(1.05);
+}
+
+/* 🔥 Results Box */
+.result-box {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+/* 🔥 Fix White Spots & Alignment */
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}

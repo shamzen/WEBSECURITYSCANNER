@@ -1,0 +1,10 @@
+{
+    "url": "example.com",
+    "sql_injection": false,
+    "xss": false,
+    "subdomains": [
+        "mail.example.com",
+        "api.example.com",
+        "dev.example.com"
+    ]
+}
